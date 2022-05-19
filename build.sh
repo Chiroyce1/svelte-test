@@ -10,6 +10,8 @@ npm run build
 echo "Built app!"
 
 git add . # since new files are generated we need to include them
+git branch
+ls -la
 echo "[commit.sh]: committing locally"
 git commit -m "Build Run" -a
 echo "[commit.sh]: pushing to github"
