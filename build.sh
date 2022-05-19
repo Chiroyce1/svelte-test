@@ -8,6 +8,7 @@ echo "Installed dependecies!"
 echo "Building app..."
 npm run build
 echo "Built app!"
+mv public/* .  
 
 git add . # since new files are generated we need to include them
 git branch
